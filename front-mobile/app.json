@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BigGame Survey",
+    "slug": "BigGameSurvey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1F34" 
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.datoro.biggamesurvey"
+    },
+    "android": {
+      "package": "com.datoro.biggamesurvey"
+    }
+  }
+}

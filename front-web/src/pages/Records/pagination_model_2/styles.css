@@ -1,0 +1,23 @@
+.pagination-container {
+    margin-top: 18px;
+    text-align: center;
+  }
+  
+  .pagination-item {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background: var(--color-darkslategray);
+    color: var(--color-coral);
+  }
+
+  .pagination-item:hover {
+    background-color: #04c7ef;
+    color: var(--color-black);
+  }
+  
+  
+  
